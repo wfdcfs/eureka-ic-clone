@@ -20,6 +20,6 @@ BLUEMIX_REGISTRY_NAMESPACE=$(cf ic namespace get)
 #################################################################################
 # Routes
 #################################################################################
-ROUTES_DOMAIN=mybluemix.net
+ROUTES_DOMAIN=w3ibm.mybluemix.net
 REGISTRY_HOSTNAME=netflix-eureka-${BLUEMIX_REGISTRY_NAMESPACE}
 REGISTRY_URL=http://${REGISTRY_HOSTNAME}.${ROUTES_DOMAIN}
